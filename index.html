@@ -13,7 +13,7 @@
 </head>
 <body>
 
-    <div class="container">
+    <div class="container" id="home">
 
         <div class="hamburguer">
             <div class="linhas" id="linhas1"></div>
@@ -28,8 +28,8 @@
             </div>    
             
             <div class="nome">
-            <h1>Web Developer & Front End Designer</h1>
-            <p>Diego Pedroso</p>
+            <h1>Whistle</h1>
+            <p>Web Design and Software Development Company</p>
             <button>Saiba mais</button>
             </div>
         </header>
@@ -38,10 +38,10 @@
             <nav>
                 <ul class="menu">
                     <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Informações</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Contatos</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
+                    <li class="menu-item"><a href="#infos" class="menu-link">Informações</a></li>
+                    <li class="menu-item"><a href="#projetin" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#founders" class="menu-link">Founders</a></li>
+                    <li class="menu-item"><a href="#contatos" class="menu-link">Contatos</a></li>
                 </ul>
             </nav>
             <div class="redes">
@@ -52,7 +52,7 @@
         </div>
     </div>
 
-    <section class="sessaoinformacoes">
+    <section class="sessaoinformacoes" id="infos">
         <header class="cabesote">
             <h1>Informações</h1>
         </header>
@@ -117,7 +117,7 @@
         </div>
     </section>
 
-    <section class="sessaofounders">
+    <section class="sessaofounders" id="founders">
         <header class="cabesote">
             <h1>Founders</h1>
         </header>
@@ -150,7 +150,7 @@
 
 
 
-    <section class="sessaoprojetos">
+    <section class="sessaoprojetos" id="projetin">
         <Header class="cabesote">
             <h1>Projetos</h1>
         </Header>
@@ -196,6 +196,58 @@
             </article>
         </article>
     </section>
+
+
+    <section class="sessaocontato" id="contatos">
+        <div class="contatolimitador">
+            <div class="contatoesquerda"></div>
+            <div class="contatodireita">
+                <h1>Contato</h1>
+                <Form>
+                    <div class="inputgrupo">
+                        <input type="text" class="field" id="nome">
+                        <label for="nome" class="fieldlabel">Nome</label>
+                    </div>
+                    <div class="inputgrupo">
+                        <input type="text" class="field" id="email">
+                        <label for="email" class="fieldlabel">E-mail</label>
+                    </div>
+                    <div class="inputgrupo">
+                        <textarea class="field" id="mensagem"></textarea>
+                        <label for="mensagem" class="fieldlabel">Mensagem</label>
+                    </div>
+                    <Button type="submit"  class="botaosub">Enviar</Button>
+                </Form>
+            
+            </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <footer>
+    <div class="div conteudofooter">
+
+                <p>
+                Copyright &copy; 2022, Whistle - Todos os direitos reservados
+                </p>
+    <div class="redesfooter">
+        <ul>
+            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+        </ul>
+    </div>
+    </div>
+
+    </footer>
+
+    <a href="#home" id="linktopo">
+        <i class="fas fa-arrow-up"></i>
+    </a>
 </body>
 
 <script src="script.js"></script>
